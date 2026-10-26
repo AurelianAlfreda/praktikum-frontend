@@ -1,0 +1,32 @@
+:root {
+  --bs-primary: #1f4e9c;
+  --bs-primary-rgb: 31, 78, 156;
+  --bs-body-font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --app-bg: #f4f6fb;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--app-bg);
+}
+
+.hero {
+  background: linear-gradient(135deg, #1f4e9c, #3a7bd5);
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.task-item.is-done .task-title {
+  text-decoration: line-through;
+  color: var(--bs-secondary-color);
+}
+
+.app-footer {
+  background-color: #e9edf5;
+  color: #55607a;
+}
